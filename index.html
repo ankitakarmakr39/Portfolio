@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal Portfolio Website</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="left">Ankita Karmakar</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-close" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi, I am <span>Ankita</span><br>Karmakar from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Passionate About Web Development and Software Field,
+                        Goal is To Achieve A Good Position By Doing Satisfying
+                        Work in The IT Field, Strongly Focused To Complete The
+                        Tasks in Fast-Faced Environment.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('INFO')">Info</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li>Full Stack Web Development<br><br></li>
+                            <li>Electronics and Communication Engineering<br><br></li>
+                            <li>Dancing<br><br></li>
+                            <li>Painting<br><br></li>
+                            <li>Ms Word, Exel, Power Point Presentation<br><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="INFO">
+                        <ul>
+                            <li><span>DOB</span><br>13th May,2002<br><br></li>
+                            <li><span>Naitonality</span><br>Indian<br><br></li>
+                            <li><span>Gender</span><br>Female<br><br></li>
+                            <li><span>Languages</span><br>English,Bengali,Hindi<br><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>B.tech</span><br>Electronics and Communication Engineering (2020-24)<br>
+                                Makaut<br>
+                                Regent Education and Research Foundation<br></li>
+                            <li><span>H.S Examination</span><br>Naihati Narendra
+                                Vidyaniketan<br>(WBCHSE)<br>(2018-2020)<br>(Science
+                                Background)<br>(Physics,Chemistry,Math,Computer Science)<br></li>
+                            <li><span>Madhyamik Examination</span><br>(2018)(WBBSE)<br>Naihati Katyayani Girls High
+                                School<br></li>
+                            <li><span>Member</span><br>(2023-2024)<br>The Institute of Engineers India (EI)<br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- -----------------Hobbies------------- -->
+    <div id="hobbies">
+        <div class="container">
+            <h1 class="sub-title">My Hobbies</h1>
+            <div class="hobbies-list">
+                <div>
+                    <i class="fa fa-headphones"></i>
+                    <h2>Listening Songs</h2>
+                    <p>Bebali,English,Hindi flavoured songs.</p>
+                </div>
+                <div>
+                    <i class="fa fa-tree"></i>
+                    <h2>Gardening</h2>
+                    <p>Various types of Flowers & Fruits.</p>
+                </div>
+                <div>
+                    <i class="fa fa-gamepad"></i>
+                    <h2>Playing Ludo</h2>
+                    <p>PC and Physically with family members.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------Gallery----------------- -->
+    <div id="gallery">
+        <div class="container">
+            <h1 class="sub-title">Work Gallery</h1>
+            <div class="galllery-list">
+                <p><span>My Drawing/Calligraphies/Penographies</span></p>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img1.jpg" alt="">
+                    </div>
+                    <div class="work">
+                        <img src="img3.jpg" alt="">
+                    </div>
+                    <div class="work">
+                        <img src="img2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- --------------------Contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittles">Contact Me</h1>
+                    <p><i class="fa fa-send-o"></i> karmakarankita39@gmai.com</p>
+                    <p><i class="fa fa-phone"></i> 9836789778</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ankita.karmakar.12764"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/ankita.karmakar.12764"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ankita-karmakar-ece-1a6390277"><i
+                                class="fa fa-linkedin"></i></a>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="AnkitaKarmakarResume (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 0 Ankita,<i class="fa fa-heart-o"></i> all copyright reserved.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
